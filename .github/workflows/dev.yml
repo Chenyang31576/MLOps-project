@@ -39,4 +39,4 @@ jobs:
     - name: Push Docker Image
       run: |
         docker tag mlip-app liuyingda7701/mlip-app:dev
-        docker push your-dockerhub-username/mlip-app:dev
+        docker push liuyingda7701/mlip-app:dev

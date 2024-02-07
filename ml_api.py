@@ -58,7 +58,7 @@ def predict(model, scaler, df, window_length):
 
 # 以下是主流程代码，您可以根据需要调用这些函数
 if __name__ == "__main__":
-    folder_path = r'C:\Users\33766\Desktop\mlipproject\data'
+    folder_path = 'data'
     df = load_data(folder_path)
     transformed_df, scaler = preprocess_data(df)
     train, label = prepare_training_data(transformed_df, 5)
